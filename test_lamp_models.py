@@ -2,7 +2,7 @@ import unittest
 from models import ColorLamp
 
 class TestColorLamp(unittest.TestCase):
-    
+
     def setUp(self):
         self.lamp = ColorLamp()
 
