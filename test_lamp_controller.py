@@ -1,7 +1,7 @@
 import unittest
 from controler import LampController
-class TestLampController(unittest.TestCase):
-    
+
+class TestLampController(unittest.TestCase):    
     def __init__(self,*args, **kwargs):
         super(TestLampController, self).__init__(*args, **kwargs) #Não percebo esta linha de código... Mas parece funcionar
         self.controller= LampController()
@@ -15,8 +15,5 @@ class TestLampController(unittest.TestCase):
         self.controller.turn_off()
         self.assertFalse(self.controller.is_on())
 
-        
-
 if __name__ == '__main__':
     unittest.main()
-    
