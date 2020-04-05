@@ -1,3 +1,5 @@
+![Tests](https://github.com/amgs/aedb_lamp/workflows/Tests/badge.svg)
+
 # Projeto Lamp
 
 Projeto do guião de aulas práticas de AED.
