@@ -43,4 +43,4 @@ Agora com o git bem configurado.
 
 # Créditos
 
-AED DCT UAL @ 2020
+AED DCT UAL &copy; 2020
