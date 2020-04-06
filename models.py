@@ -9,6 +9,7 @@ class Lamp:
     def set_off(self):
         self.state=False
 
+
     def get_state(self): #Não percebo o porque desta "Função", nao podiamos simplesmente chamar Lamp.state?
         return self.state
 
