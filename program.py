@@ -21,8 +21,7 @@ if __name__ == "__main__":
             # Create color lamp with ID
             lamp_color = commands[1]
             lamp_id = commands[2]
-            lamp = controller.create_color_lamp(lamp_id)
-            lamp.set_color(lamp_color)
+            lamp = controller.create_color_lamp(lamp_color, lamp_id)
             controller.add_lamp(lamp)
             print(f'{lamp_color} ColorLamp {lamp_id} created.')
 

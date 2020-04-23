@@ -32,9 +32,10 @@ class LampController:
         return lamp
 
     #### color lamp ###
-    def create_color_lamp(self, ID):
+    def create_color_lamp(self, color, ID):
         lamp = m.ColorLamp()
         lamp.set_ID(ID)
+        lamp.set_color(color)
         self.add_lamp(lamp)
         return lamp
 
@@ -57,8 +58,7 @@ class LampController:
             if array.get_ID() == ID:
                 return array
 
-
-    def is_lamp_in_array(self, lamp):
+    def is_lamp_in_an_array(self, lamp):
         for array in self.arrays:
             if lamp in array.get_conjunto():
                 return True
