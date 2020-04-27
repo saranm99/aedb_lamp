@@ -60,6 +60,7 @@ class TestLampController(unittest.TestCase):
     def test_get_object_by_id(self):
         self.create_array_with_3_lamps()
         self.assertEqual(self.controller.get_object_by_id('L2'), self.l2)
+        self.assertEqual(self.controller.get_object_by_id('L3'), self.l3)
 
     def test_is_lamp_in_an_array(self):
         self.create_array_with_3_lamps()
