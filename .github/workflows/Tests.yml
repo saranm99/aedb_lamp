@@ -21,4 +21,4 @@ jobs:
       run: |
         pip install invoke
         pip install coverage
-        invoke test
+        invoke cov
