@@ -1,3 +1,4 @@
 [run]
 omit =
+    *_virtualenv.py*
     test_*
